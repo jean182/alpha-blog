@@ -1,4 +1,4 @@
-##Alpha-Blog
+# Alpha-Blog
 
 This is my blog project, to learn how to use rails.
 Readme is going to change but this is the first readme file
