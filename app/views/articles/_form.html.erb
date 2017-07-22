@@ -1,11 +1,4 @@
-<% if @article.errors.any? %>
-<h2>The following errors prevented the article from being created</h2>
-  <ul>
-    <% @article.errors.full_messages.each do |msg| %>
-      <li><%= msg%></li>
-    <%end%>
-  </ul>
-<%end%>
+<%= render 'shared/errors', obj: @article %>
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formModal">Escribir Artículo</button>
   <p><%= link_to 'Cancelar y regresar a la lista de artículos', articles_path %></p>
 
